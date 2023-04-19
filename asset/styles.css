@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,15 +16,17 @@
 }
 
 .header h1 {
+  margin: auto;
   max-width: 971px;
   max-height: 160px;
   font-size: 72px;
   font-weight: 400;
   line-height: 80px;
-  font-family: 'Vazirmatn', sans-serif;
+  font-family: "Vazirmatn", sans-serif;
 }
 
 .header h5 {
+  margin: auto;
   max-height: 36px;
   font-size: 24px;
   line-height: 36px;
@@ -31,6 +35,97 @@
   margin-top: 20px;
 }
 
-.main-img{
-    margin-top: 62px;
+.main-img {
+  margin-top: 62px;
+}
+
+.ready {
+  max-width: 1920px;
+  max-height: 885px;
+  margin-top: 133px;
+}
+
+.ready-title {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.ready h5 {
+  max-width: 90px;
+  max-height: 28px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ready h1 {
+  max-width: 265px;
+  max-height: 52px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: "Montserrat", sans-serif;
+
+  margin-top: 7px;
+}
+
+.table {
+  max-width: 1110px;
+}
+
+.table-title {
+  width: 48px;
+  height: 48px;
+  background-color: #0baaca;
+  border-radius: 50px;
+  position: relative;
+}
+
+.table-title p {
+  color: #fff;
+  width: 10px;
+  height: 36px;
+  font-weight: 700;
+  font-size: 24px;
+  align-items: center;
+  font-family: "Vazirmatn", sans-serif;
+
+  position: absolute;
+  top: 6px;
+  left: 16px;
+}
+
+.title3{
+  background-color: #DEE2E6;
+}
+
+.table-title .img{
+  margin-top: 13px;
+}
+
+.title1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1E1E1E;
+}
+
+.des{
+  color: #495057;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+  border: none;
+}
+
+.systemImg {
+  margin-top: 36px;
 }
