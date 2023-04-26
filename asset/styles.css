@@ -343,3 +343,65 @@
 .icon3 {
   background-color: #D3FFE7;
 }
+
+.group-3 {
+  margin: auto;
+  height: 567px;
+  padding-top: 148px;
+}
+
+.group-3 .title {
+  display: grid;
+  color: #1E1E1E;
+  place-items: end;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.group-3 .title h5 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.group-3 .title h5 {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxs>div {
+  background-color: #fff;
+  width: 350px;
+  height: 224px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+
+.boxs>div>div {
+  margin-top: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.boxs>div>h5{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  color: #1E1E1E;
+}
+
+.boxs>div>p {
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+font-family: "Open Sans", sans-serif;
+color: #495057;
+width: 286px;
+}
