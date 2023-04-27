@@ -405,3 +405,94 @@ font-family: "Open Sans", sans-serif;
 color: #495057;
 width: 286px;
 }
+
+.group-4{
+  padding-top: 120px;
+}
+
+.group-4 > h5 {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #1E1E1E;
+}
+
+.group-4 > h5 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  color: #1E1E1E;
+}
+
+.group4_boxs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.g4_box{
+  background: #fff;
+  border-radius: 12px;
+  width: 540px;
+  height: 440px;
+  display: grid;
+  place-content: center;
+}
+
+.group4_boxs > div > div{
+  margin-top: 56px;
+}
+
+.group4_boxs > div > div>h4{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1E1E1E;
+  margin-top: 5px;
+}
+.group4_boxs > div > div>h3{
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+  color: #1E1E1E;
+  margin-bottom: 17px;
+}
+
+.group4_boxs > div > div>p{
+  width: 428px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #1E1E1E;
+  font-family: "Open Sans", sans-serif;
+}
+
+.group4_boxs > div > div>div{
+  height: 58px;
+  /* width: 427px; */
+  background-color: #0BAACA;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  margin: 52px auto 56px auto;
+  
+  border-radius: 4px;
+  padding: 16px, 162px, 16px, 162px;
+  gap: 10px;
+
+}
+
+.group-4 >p{
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 24px;
+  letter-spacing: -0.2;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+}
