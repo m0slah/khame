@@ -578,9 +578,9 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   border-radius: 12px;
-} 
+}
 
-.group-6 div div{
+.group-6 div div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -604,4 +604,29 @@
   z-index: 100;
 }
 
+footer {
+  background-color: #fff;
+}
 
+footer>div {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #6C757D;
+}
+
+footer>div>a {
+  text-decoration: none;
+  color: #40C780;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 70px;
+}
