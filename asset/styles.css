@@ -517,6 +517,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   border-radius: 60px;
+  margin-bottom: 80px;
 }
 
 .grid-item {
@@ -561,3 +562,46 @@
   height: 100.92px;
   text-align: right;
 }
+
+.group-6 {
+  margin-top: 111px;
+  background-color: #626ED4;
+  height: 348px;
+  width: 100%;
+  padding: 80px;
+  padding: 70px 70px;
+}
+
+.group-6 div {
+  height: 188px;
+  background-color: #F8F9FA;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border-radius: 12px;
+} 
+
+.group-6 div div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.group-6 div>div>div>h2 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+
+}
+
+.group-6 div>div>div>button {
+  background-color: #15F57C;
+  width: 277px;
+  height: 68px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  z-index: 100;
+}
+
+
