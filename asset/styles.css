@@ -520,6 +520,12 @@
   margin-bottom: 80px;
 }
 
+.grid-container :nth-child(9){
+  border: #81C4FF 2px outset;
+  border-style: groove;
+  background-color: #EEF7FF;
+}
+
 .grid-item {
   border: 1px solid #EBEBEB;
   padding: 20px 30px;
