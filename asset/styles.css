@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+body{
+  min-height: 100vh;
+  min-width: 100%;
+}
+
 .header {
   font-family: "IBM Plex Sans Arabic", sans-serif;
   margin-top: 170px;
