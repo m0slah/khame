@@ -190,6 +190,15 @@ body{
   opacity: 0.24;
 }
 
+.box2 div div {
+  margin-top: 10px;
+}
+
+.ms{
+  display: flex;
+  justify-content: space-around;
+}
+
 .group3 {
   height: 742px;
   padding-top: 79px;
