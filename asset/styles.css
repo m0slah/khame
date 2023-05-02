@@ -499,7 +499,7 @@ body{
   border-radius: 4px;
   padding: 16px, 162px, 16px, 162px;
   gap: 10px;
-  transition: all 0.5s;
+  transition: all 0.5; 
 }
 
 .group4_boxs>div>div>div:hover {
