@@ -499,6 +499,11 @@ body{
   border-radius: 4px;
   padding: 16px, 162px, 16px, 162px;
   gap: 10px;
+  transition: all 0.5s;
+}
+
+.group4_boxs>div>div>div:hover {
+  background-color: #05BFDB;
 }
 
 .group-4>p {
